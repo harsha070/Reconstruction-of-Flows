@@ -4,11 +4,11 @@ We are sharing the dataset for further development and research. The dataset has
 
 They are stored as follows
 
-`{mesh size}/{mesh size}\__{parameter}\__{lid velocity}.txt`
+`{mesh size}/{mesh size}_{parameter}_{lid velocity}.txt`
 
 where 
 `mesh size` is {8, 16, 32, 64}  
 `parameter` is {u, v, pressure}  
 `lid velocity` is {0.01, 0.02, 0.03....1.00}
 
-Each `.txt` file has a `n` lines with `n` values in each line. 
+Each `.txt` file has a `n` rows and `n` columns.  
